@@ -2,7 +2,7 @@ import React from "react";
 import { FlyToInterpolator } from "react-map-gl";
 import * as Locations from "./locations";
 import Map from "./Map";
-import styles from "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   const [viewState, setViewState] = React.useState(Locations.sri_colombo);
