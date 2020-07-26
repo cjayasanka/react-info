@@ -1,6 +1,6 @@
 import React from "react";
 import MapGL from "react-map-gl";
-import * as districts from "./LKA_electrol_districts.geojson";
+import * as districts from "./LKA_electrol_districts_8x.geojson";
 import { DeckGL } from "deck.gl";
 import { GeoJsonLayer } from "@deck.gl/layers";
 
@@ -32,6 +32,7 @@ export default function Map({
       opacity: 0.2,
       pickable: true,
       onClick: ({ object }) => onflyTo(object),
+      autoHighlight: true,
     }),
   ];
 
