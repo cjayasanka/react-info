@@ -8,14 +8,14 @@ function App() {
   const [viewState, setViewState] = React.useState(Locations.sri_colombo);
   const handleChangeViewState = ({ viewState }) => setViewState(viewState);
 
-  const handleflyTo = (destination) => {
-    setViewState({
-      ...viewState,
-      ...destination,
-      transitionDuration: 2000,
-      transitionInterpolator: new FlyToInterpolator(),
-    });
-  };
+  // const handleflyTo = (destination) => {
+  //   setViewState({
+  //     ...viewState,
+  //     ...destination,
+  //     transitionDuration: 2000,
+  //     transitionInterpolator: new FlyToInterpolator(),
+  //   });
+  // };
 
   const handleDropdownChange = (e) => {
     setViewState({
