@@ -5,17 +5,17 @@ import Map from "./Map";
 import styles from "./App.module.css";
 
 function App() {
-  const [viewState, setViewState] = React.useState(Locations.sri_colombo);
+  const [viewState, setViewState] = React.useState(Locations.Sri_Lanka);
   const handleChangeViewState = ({ viewState }) => setViewState(viewState);
 
-  // const handleflyTo = (destination) => {
-  //   setViewState({
-  //     ...viewState,
-  //     ...destination,
-  //     transitionDuration: 2000,
-  //     transitionInterpolator: new FlyToInterpolator(),
-  //   });
-  // };
+  const handleflyTo = (destination) => {
+    setViewState({
+      ...viewState,
+      ...Locations[destination.properties.electoralDistrict],
+      transitionDuration: 2000,
+      transitionInterpolator: new FlyToInterpolator(),
+    });
+  };
 
   const handleDropdownChange = (e) => {
     setViewState({
@@ -24,7 +24,15 @@ function App() {
       transitionDuration: 2000,
       transitionInterpolator: new FlyToInterpolator(),
     });
-    console.log(e.target.value);
+  };
+
+  const resetView = () => {
+    setViewState({
+      ...viewState,
+      ...Locations["Sri_Lanka"],
+      transitionDuration: 2000,
+      transitionInterpolator: new FlyToInterpolator(),
+    });
   };
 
   return (
@@ -35,6 +43,7 @@ function App() {
         viewState={viewState}
         onViewStateChange={handleChangeViewState}
         apiKey={process.env.REACT_APP_MAPBOX_TOKEN}
+        onflyTo={handleflyTo}
       />
       <div className={styles.controls}>
         {/* {Object.keys(Locations).map((key) => {
@@ -57,6 +66,13 @@ function App() {
             })}
           </select>
         </div>
+        <button
+          onClick={() => {
+            resetView();
+          }}
+        >
+          Reset
+        </button>
       </div>
     </div>
   );

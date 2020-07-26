@@ -1,16 +1,16 @@
 // Sri Lankan
 
-export const sri = {
+export const Sri_Lanka = {
   longitude: 80.771797,
   latitude: 7.873054,
-  zoom: 7.5,
+  zoom: 7,
   pitch: 0,
   bearing: 0,
 };
 
 // Southern
 
-export const sri_matara = {
+export const Matara = {
   longitude: 80.535362,
   latitude: 5.94931,
   zoom: 11,
@@ -18,7 +18,7 @@ export const sri_matara = {
   bearing: 58.7,
 };
 
-export const sri_galle = {
+export const Galle = {
   longitude: 80.220642,
   latitude: 6.0402,
   zoom: 11,
@@ -26,7 +26,7 @@ export const sri_galle = {
   bearing: -1.45,
 };
 
-export const sri_hambantota = {
+export const Hambantota = {
   longitude: 81.120552,
   latitude: 6.12386,
   zoom: 11,
@@ -36,7 +36,7 @@ export const sri_hambantota = {
 
 // Uva
 
-export const sri_badulla = {
+export const Badulla = {
   longitude: 81.056473,
   latitude: 6.98469,
   zoom: 11,
@@ -45,7 +45,7 @@ export const sri_badulla = {
 };
 
 // -no
-export const sri_monaragala = {
+export const Monaragala = {
   longitude: 80.220642,
   latitude: 6.0402,
   zoom: 11,
@@ -55,7 +55,7 @@ export const sri_monaragala = {
 
 // Western
 
-export const sri_colombo = {
+export const Colombo = {
   longitude: 79.85775,
   latitude: 6.93197,
   zoom: 11,
@@ -63,7 +63,7 @@ export const sri_colombo = {
   bearing: 58.7,
 };
 
-export const sri_gampaha = {
+export const Gampaha = {
   longitude: 79.999634,
   latitude: 7.09115,
   zoom: 11,
@@ -71,7 +71,7 @@ export const sri_gampaha = {
   bearing: 58.7,
 };
 
-export const sri_kalutara = {
+export const Kalutara = {
   longitude: 79.962921,
   latitude: 6.58084,
   zoom: 11,
@@ -81,7 +81,7 @@ export const sri_kalutara = {
 
 // Eastern
 
-export const sri_trincomalee = {
+export const Trincomalee = {
   longitude: 81.233002,
   latitude: 8.569,
   zoom: 11,
@@ -89,7 +89,7 @@ export const sri_trincomalee = {
   bearing: 58.7,
 };
 
-export const sri_batticaloa = {
+export const Batticaloa = {
   longitude: 81.701736,
   latitude: 7.70788,
   zoom: 11,
@@ -98,7 +98,7 @@ export const sri_batticaloa = {
 };
 
 // -no
-export const sri_ampara = {
+export const Ampara = {
   longitude: 79.962921,
   latitude: 6.58084,
   zoom: 11,
@@ -108,7 +108,7 @@ export const sri_ampara = {
 
 // North Western
 
-export const sri_kurunegala = {
+export const Kurunegala = {
   longitude: 80.36307,
   latitude: 7.49039,
   zoom: 11,
@@ -117,7 +117,7 @@ export const sri_kurunegala = {
 };
 
 // -no
-export const sri_puttalam = {
+export const Puttalam = {
   longitude: 81.701736,
   latitude: 7.70788,
   zoom: 11,
@@ -127,7 +127,7 @@ export const sri_puttalam = {
 
 // Nothern
 
-export const sri_jaffna = {
+export const Jaffna = {
   longitude: 80.018517,
   latitude: 9.66528,
   zoom: 11,
@@ -135,34 +135,7 @@ export const sri_jaffna = {
   bearing: 58.7,
 };
 
-// -no
-export const sri_kilinochchi = {
-  longitude: 79.999634,
-  latitude: 7.09115,
-  zoom: 11,
-  pitch: 42.9,
-  bearing: 58.7,
-};
-
-// -no
-export const sri_mannar = {
-  longitude: 79.962921,
-  latitude: 6.58084,
-  zoom: 11,
-  pitch: 42.9,
-  bearing: 58.7,
-};
-
-// -no
-export const sri_mullaitivu = {
-  longitude: 79.999634,
-  latitude: 7.09115,
-  zoom: 11,
-  pitch: 42.9,
-  bearing: 58.7,
-};
-
-export const sri_vavuniya = {
+export const Vanni = {
   longitude: 80.49836,
   latitude: 8.75248,
   zoom: 11,
@@ -172,7 +145,7 @@ export const sri_vavuniya = {
 
 // Sabaragamuwa
 
-export const sri_kegalle = {
+export const Kegalle = {
   longitude: 80.358223,
   latitude: 7.25394,
   zoom: 11,
@@ -180,7 +153,7 @@ export const sri_kegalle = {
   bearing: 58.7,
 };
 
-export const sri_ratnapura = {
+export const Ratnapura = {
   longitude: 80.384735,
   latitude: 6.705574,
   zoom: 11,
@@ -190,7 +163,7 @@ export const sri_ratnapura = {
 
 // Central
 
-export const sri_matale = {
+export const Matale = {
   longitude: 80.623688,
   latitude: 7.4685,
   zoom: 11,
@@ -198,7 +171,7 @@ export const sri_matale = {
   bearing: 58.7,
 };
 
-export const sri_kandy = {
+export const Kandy = {
   longitude: 80.637466,
   latitude: 7.28444,
   zoom: 11,
@@ -206,7 +179,7 @@ export const sri_kandy = {
   bearing: 58.7,
 };
 
-export const sri_nuwara_eliya = {
+export const Nuwara_Eliya = {
   longitude: 80.783943,
   latitude: 6.96861,
   zoom: 11,
@@ -216,7 +189,7 @@ export const sri_nuwara_eliya = {
 
 // North Central
 
-export const sri_Anuradhapura = {
+export const Anuradhapura = {
   longitude: 80.418716,
   latitude: 8.31219,
   zoom: 11,
@@ -224,7 +197,7 @@ export const sri_Anuradhapura = {
   bearing: 58.7,
 };
 
-export const sri_Polonnaruwa = {
+export const Polonnaruwa = {
   longitude: 81.00808,
   latitude: 7.93286,
   zoom: 11,
